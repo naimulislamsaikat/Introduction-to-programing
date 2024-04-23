@@ -6,15 +6,13 @@ Factorial of 5 is 120 */
 #include<iostream>
 #include<math.h>
 using namespace std;
-int main()
-{
+int main(){
     int n,factorial=1,i;
     cout<<"Your input to calculate factorial= ";
     cin>>n;
-    for(i=1; i<=n; i++)
-    {
+    for(i=1; i<=n; i++){
         factorial=factorial*i;
     }
     cout<<"Factorial of the number is = "<<factorial<<endl;
-    return 0;
+return 0;
 }
