@@ -2,7 +2,6 @@
 
 #include<iostream>
 using namespace std;
-
 int main(){
     int x=0;
     int arr1 [6];
@@ -34,6 +33,5 @@ int main(){
     else{
         cout<<"No common element!";
     }
-
 return 0;
 }
